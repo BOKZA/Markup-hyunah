@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Merriweather:wght@900&display=swap');
+
+.container{padding-top: 80px;}
+.profile{padding-left: 32%;}
+img{width: 150px; border-radius: 90px;}
+.card_{
+    margin: 0 auto;
+}
+a:link{text-decoration: none;
+color: white;}
+
+.intro{
+font-family: 'Merriweather', serif;
+    padding: 10px;
+}
