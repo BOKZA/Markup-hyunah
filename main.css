@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Merriweather:wght@900&display=swap');body,html{
+    margin: 0 auto;
+    background-color:#f7f9fc;}
+a{
+    text-decoration: none;
+    color: black;
+}
+.grid-container{
+    display: grid;
+	grid-auto-rows: minmax(250px, 1fr);
+    grid-auto-columns: minmax(30px, auto);
+	grid-gap :  0.5rem; /* grid-column-gap과 grid-row-gap */
+    width : 50rem;
+    margin : 0 auto;
+}
+.grid-item {
+	background-color : white;
+    font-size : 2rem;
+    border-radius: 13px;
+    transition: 1s;
+}
+.header {grid-column : 1/4;    /* 시작라인/종료라인  1/ span 3;*/
+    grid-row : 1/2;
+    text-align: center;
+    align-items: end;
+    height: 100px;
+    border-radius: 50px;
+    font-family: 'Merriweather', serif;
+    box-shadow: 0px 8px 6px 2px rgb(221, 221, 221);
+    margin-top: 100px;
+    
+}
+
+.profile {grid-column : 1 / 3;
+    font-family: 'Libre Baskerville', serif;
+        grid-row : 2 / 3; background-color: rgb(230, 230, 230);} 
+.profile:hover{
+    background-color:rgb(167, 161, 255);
+}
+.gallery {grid-column : 3 / 4;
+    font-family: 'Libre Baskerville', serif;
+         grid-row : 2 / 4; background-color:rgb(209, 209, 209);}
+.gallery:hover{
+    background-color:rgb(164, 206, 240);
+
+}
+.guest {grid-column : 1 / 2;
+    font-family: 'Libre Baskerville', serif;
+          grid-row : 3 / 4; background-color:gray;}
+.guest:hover{
+    background-color: pink;
+}
+.draw {grid-column : 2 / 3;
+    font-family: 'Libre Baskerville', serif;
+    grid-row: 3 / 4; background-color:rgb(161, 161, 161);}
+.draw:hover{
+    background-color:rgb(247, 242, 183);
+}
+  

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Merriweather:wght@900&display=swap');
+
+
+.form{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+#first{padding: 10px;
+border-radius: 8px;
+}
+.border{
+    background-color: #f7f9fc;
+}
+
+.intro{
+    font-family: 'Merriweather', serif;
+    padding: 10px;
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Merriweather:wght@900&display=swap');
+.container{
+    font-family: 'Nanum Gothic', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-auto-rows: minmax(180px, 200px);
+    background-color: #eee;
+  }
+  .image > img {
+    object-fit: cover;
+    width: 100%;
+  }
+  .image {
+    transition: all 0.5s;
+  }
+  .image:hover {
+    transform: scale(1.08) translateZ(50px);
+  }
+  .intro{
+    font-family: 'Merriweather', serif;
+    padding: 10px;
+}
